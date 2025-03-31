@@ -26,7 +26,7 @@ export class User {
   @Prop({ type: String })
   password: string
 
-  @Prop({ type: String, default: UserRole.REGULAR })
+  @Prop({ type: String, default: UserRole.ADMIN })
   role: string
 
   @Prop({ type: Date })
